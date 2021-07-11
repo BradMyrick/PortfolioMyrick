@@ -85,6 +85,12 @@
         return false;
     });
 
+	$(document).on('click', '.open-link', function() {
+        var projectUrl = $(this).attr("href");
+		window.open(projectUrl);
+        return false;
+    });
+	
     //Blog post Model
     $('.open-post').on('click', function() {
         var postUrl = $(this).attr("href");

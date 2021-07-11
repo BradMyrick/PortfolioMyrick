@@ -16,7 +16,7 @@ if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
     . 'Name:' . $name . '<br/>'    
     . 'Message:' . $comment . '<br/><br/>';        
     mail($toEmail, $subject, $message, $headers);
-    $showMessage = "Your Query has been received, We will contact you soon.";    
+    $showMessage = "Your message has been received, I will contact you shortly.";    
 } else {
     $showMessage =  "invalid email";
 }
