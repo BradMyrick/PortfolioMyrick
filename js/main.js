@@ -67,7 +67,7 @@
 
     // Typing Animation (Typed.js)
     $('#element').typed({
-        strings: ["UX, UI Designer", "Web App Developer", "Social Animal!"],
+        strings: ["UX, UI Designer", "Android App Developer", "Digital Artist"],
         typeSpeed: -50,
         loop: true,
         startDelay: 500,
@@ -220,7 +220,7 @@
 
     //mapbox api
 
-    var mymap = L.map('map').setView([30.176529, -85.805489], 14);
+    var mymap = L.map('map').setView([30.186529, -85.805489], 14);
 
     L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZGVsdGFtZWNoIiwiYSI6ImNrcXlqdWJ4bzEwd3AyeXF5NGQyNG16dTIifQ.UHvMO5sG_vilkdOAduA9_A', {
         maxZoom: 18,
@@ -237,6 +237,6 @@
         iconAnchor: [15, 15]
     });
 
-    L.marker([40.6700, -73.9400], { icon: icon }).addTo(mymap);
+    L.marker([30.186529, -85.805489], { icon: icon }).addTo(mymap);
 
 })(jQuery);
