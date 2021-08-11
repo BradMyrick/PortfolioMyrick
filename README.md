@@ -1,2 +1,3 @@
 # PortfolioMyrick
-My Portfolio Site.  Codemucho.com
+My "One Sheet" Portfolio Site.  Codemucho.com
+PHP for admin email.  

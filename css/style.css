@@ -1,5 +1,4 @@
 /*------------------------------------------------------------------
-
     [Master Stylesheet]
     Last change: 7/18/2021
     2021 Revamp: BradM - http://www.codemucho.com
@@ -25,13 +24,9 @@
 
 -------------------------------------------------------------------*/
 
-
-/* -------------------------------------------------------------------
-
-                        0. General Styles
-
--------------------------------------------------------------------*/
-
+/*
+    [General Styles]
+*/
 body {
     font: 400 14px 'Poppins', sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -840,7 +835,7 @@ h2.menu-item:after {
 
 .content {
     position: relative;
-    padding: 120px 70px 30px;
+    padding: 0px 70px 30px;
     height: auto;
     overflow: hidden;
 }
@@ -1058,8 +1053,8 @@ h2.menu-item:after {
 }
 
 .sign {
-    margin-top: -100px;
-    margin-bottom: -10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .info-list {
@@ -2598,7 +2593,7 @@ h4.package {
         display: none;
     }
     .content {
-        padding: 100px 20px 50px;
+        padding: 50px 20px 50px;
     }
     .content-blocks.pop.showx {
         top: 0;
